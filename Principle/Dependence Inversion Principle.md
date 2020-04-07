@@ -1,5 +1,5 @@
 ## 依赖倒置原则定义
-> * **依赖倒置原则（Dependence Inversion Principle，DIP）**高层模块不应该依赖底层模块，两者都应该依赖其抽象；抽象不应该依赖细节，细节应该依赖抽象。(High level modules should not depend upon low level modules.Both should depend upon abstractions.Abstractions should not depend upon details.Details should upon abstractions.) 其核心思想是：要面向接口编程不要面向实现编程。
+> * **依赖倒置原则（Dependence Inversion Principle，DIP）** 高层模块不应该依赖底层模块，两者都应该依赖其抽象；抽象不应该依赖细节，细节应该依赖抽象。(High level modules should not depend upon low level modules.Both should depend upon abstractions.Abstractions should not depend upon details.Details should upon abstractions.) 其核心思想是：要面向接口编程不要面向实现编程。
 * <font color='red'>依赖倒置原则是实现开闭原则的重要途径之一，它降低了客户与实现模块之间的耦合。</font>
 * 由于在软件设计中，细节具有多变性，而抽象层相对稳定，因此以抽象为基础搭建起来的架构要比以细节为基础搭建起来的架构要稳定得多。这里的抽象指的是接口或者抽象类，而细节指的是具体的实现类。
 * 使用接口或者抽象类的目的是制定好规范和契约，而不去涉及任何具体的操作，把展现细节的任务交给它们的实现类去完成。
