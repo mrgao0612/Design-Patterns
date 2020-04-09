@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <classPath>com.accomplish.designpatterns.creationalpatterns.factorymethod.ConcreteFactory2</classPath>
+</config>
